@@ -1,0 +1,24 @@
+{
+  "upload": {
+    "port": "/dev/tty.usbmodem1101",
+    "baud": 115200
+  },
+  "serial": {
+    "port": "/dev/tty.usbmodem1101",
+    "baud": 115200
+  },
+  "ignore": {
+    "extensions": [
+      ".micropythonrc",
+      ".gitignore"
+    ],
+    "directories": [
+      ".vscode",
+      ".git"
+    ]
+  },
+  "tools": {
+    "ampy": "/opt/homebrew/anaconda3/bin/ampy",
+    "rshell": "/opt/homebrew/anaconda3/bin/rshell"
+  }
+}
